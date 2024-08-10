@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Groceries Budget</title>
+</head>
+<body>
+    <div class="container">
+        <div class="money__container">
+            <div class="box" id="budget__cont">
+                <h4>Type your budget</h4>
+                <div class="input__container">
+                    <span class="symbol">$</span>
+                    <input type="number" id="budget">
+                </div>
+            </div>
+            <div id="items__cont" class="box">
+                <h4>Items Selected</h4>
+             <span id="items">0</span>
+            </div> 
+            <div id="spent__cont" class="box">
+                <h4>Money Spent</h4>
+                <p>$ <span id="spent"></span></p>
+
+            </div>
+
+            <div id="left__cont">
+                <h4>Money Left</h4>
+                <p>$<span id="left">0</span></p>
+            </div>
+        </div>
+        <div class="products__container">
+            <div class="product" style="background-image: url(food/istockphoto-1144823591-612x612.jpg);">
+                <h3>Pasta</h3>
+                <option value="150" class="price" >$1.50</option>
+            </div>
+            <div class="product" style="background-image: url(food/indir.jpg);">
+                <h3>Bread</h3>
+                <option value="100" class="price" >$1.00</option>
+            </div>
+            <div class="product" style="background-image: url(food/indir\ \(1\).jpg);">
+                <h3>Bananas</h3>
+                <option value="090" class="price" >$0.90</option>
+            </div>
+            <div class="product" style="background-image: url(food/360_F_642374127_Mw1lAR6BSUwUt2qZyaPNPOmc7XLmyCBw.jpg);">
+                <h3>Chicken</h3>
+                <option value="700" class="price" >$7.00</option>
+            </div>
+            <div class="product" style="background-image: url(food/360_F_527677637_QFURjD7PrM3pAtQpHlkEHJe8qIbz1H6P.jpg);">
+                <h3>Peppers</h3>
+                <option value="250" class="price" >$2.50</option>
+            </div>
+            <div class="product" style="background-image: url(food/istockphoto-1365099869-612x612.jpg);">
+                <h3>Apples</h3>
+                <option value="230" class="price" >$2.30</option>
+            </div>
+            <div class="product" style="background-image: url(food/istockphoto-157405246-612x612.jpg);">
+                <h3>Wine</h3>
+                <option value="1150" class="price" >$11.50</option>
+            </div>
+            <div class="product" style="background-image: url(food/indir\ \(2\).jpg);">
+                <h3>Juice</h3>
+                <option value="335" class="price" >$3.35</option>
+            </div>
+            <div class="product" style="background-image: url(food/indir\ \(3\).jpg);">
+                <h3>Lettuces</h3>
+                <option value="185" class="price" >$1.85</option>
+            </div>
+            <div class="product" style="background-image: url(food/pexels-pixabay-162712.jpg);">
+                <h3>Eggs</h3>
+                <option value="325" class="price" >$3.25</option>
+            </div>
+            <div class="product" style="background-image: url(food/olive-varieties©iStock.jpg.webp);">
+                <h3>Olives</h3>
+                <option value="560" class="price" >$5.60</option>
+            </div>
+            <div class="product" style="background-image: url(food/pexels-pixabay-533280.jpg);">
+                <h3>Tomatos</h3>
+                <option value="199" class="price" >$1.99</option>
+            </div>
+            <div class="product" style="background-image: url(food/360_F_199909433_VWfq94a6BYtepSIJczsxykqAYuFVEX1Z.jpg);">
+                <h3>Salt</h3>
+                <option value="160" class="price" >$1.60</option>
+            </div>
+            <div class="product" style="background-image: url(food/Lemon.jpg);">
+                <h3>Lemon</h3>
+                <option value="125" class="price" >$1.25</option>
+            </div>
+            <div class="product" style="background-image: url(food/360_F_234843972_m3f4dQ0OSCLwJaXnqmOJlXw7pgMYCGQo.jpg);">
+                <h3>Salmon</h3>
+                <option value="935" class="price" >$9.35</option>
+            </div>
+            <div class="product" style="background-image: url(food/indir\ \(4\).jpg);">
+                <h3>Olive Oil</h3>
+                <option value="725" class="price" >$7.25</option>
+            </div>
+            <div class="product" style="background-image: url(food/indir\ \(5\).jpg);">
+                <h3>Rice</h3>
+                <option value="385" class="price" >$3.85</option>
+            </div>
+            <div class="product" style="background-image: url(food/istockphoto-1221897350-612x612.jpg);">
+                <h3>Sausages</h3>
+                <option value="455" class="price" >$4.55</option>
+            </div>
+            <div class="product" style="background-image: url(food/Potatoes-May-No-Longer-Be-Considered-a-Vegetable-FT-BLOG1223-83fa6005a5bf4210aac4b1cc6fd35774.jpg);">
+                <h3>Potatos</h3>
+                <option value="190" class="price" >$1.90</option>
+            </div>
+            <div class="product" style="background-image: url(food/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__12__20161204-sous-vide-shrimp-27-1500x1125-132ea1b5d07c4284bf16589b1bedee3d.jpg);">
+                <h3>Shrimps</h3>
+                <option value="875" class="price" >$8.75</option>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
